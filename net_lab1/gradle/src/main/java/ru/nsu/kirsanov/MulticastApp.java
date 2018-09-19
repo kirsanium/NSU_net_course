@@ -16,6 +16,7 @@ public class MulticastApp {
     private final String CHECK_MESSAGE = "check";
     private final String OK_MESSAGE = "ok";
     private final long SLEEP_TIME = 1000;
+
     private MulticastSocket multicastSocket = null;
     private String multicastAddress;
     private InetAddress groupAddress;
@@ -68,6 +69,8 @@ public class MulticastApp {
             try {
                 multicastSocket.joinGroup(groupAddress);
                 multicastSendMessage(HELLO_MESSAGE);
+                sleep(SLEEP_TIME);
+                printIPAddressesList();
                 while (!toExit) {
                     sleep(SLEEP_TIME);
                     multicastSendMessage(CHECK_MESSAGE);
@@ -128,7 +131,7 @@ public class MulticastApp {
                         case OK_MESSAGE:
                             if (clientInfoList.indexOf(senderInfo) == -1) {
                                 clientInfoList.add(senderInfo);
-                                printIPAddressesList();
+//                                printIPAddressesList();
                             }
                             ClientInfo existingSenderInfo = clientInfoList.get(clientInfoList.indexOf(senderInfo));
                             existingSenderInfo.resetTimeoutCounter();
