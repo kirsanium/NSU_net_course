@@ -1,0 +1,400 @@
+GET http://localhost:6789/messages?count=1&offset=1
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110602.200.json
+
+###
+
+GET http://localhost:6789/messages?count=1&offset=0
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110558.200.json
+
+###
+
+GET http://localhost:6789/messages?count=1
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110547.200.json
+
+###
+
+GET http://localhost:6789/messages?count=0
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110543.200.json
+
+###
+
+GET http://localhost:6789/messages
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110535.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+Content-Type: application/json
+
+{
+  "message": "hello world!"
+}
+
+<> 2018-12-21T110528.200.json
+
+###
+
+GET http://localhost:6789/messages?count=1
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110503.200.json
+
+###
+
+GET http://localhost:6789/messages
+Authorization: Token 17404ecf-f2ae-44a3-8bfe-8815176f6399
+
+<> 2018-12-21T110456.200.json
+
+###
+
+GET http://localhost:6789/messages
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+"username": "kirsan"
+}
+
+<> 2018-12-21T110418.200.json
+
+###
+
+GET http://localhost:6789/messages
+Authorization: Token 7e848a12-6dcd-4dfc-91e5-be80baa55186
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 7e848a12-6dcd-4dfc-91e5-be80baa55186
+Content-Type: application/json
+
+{
+  "message": "hello world!"
+}
+
+<> 2018-12-21T110230.200.json
+
+###
+
+GET http://localhost:6789/messages
+Authorization: Token 7e848a12-6dcd-4dfc-91e5-be80baa55186
+
+###
+
+GET http://localhost:6789/users/0
+Authorization: Token 7e848a12-6dcd-4dfc-91e5-be80baa55186
+
+###
+
+GET http://localhost:6789/users/1
+Authorization: Token 7e848a12-6dcd-4dfc-91e5-be80baa55186
+
+<> 2018-12-21T110140.200.json
+
+###
+
+GET http://localhost:6789/users
+Authorization: Token 7e848a12-6dcd-4dfc-91e5-be80baa55186
+
+<> 2018-12-21T110130.200.json
+
+###
+
+GET http://localhost:6789/users
+Authorization: Token <sometoken>
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "batya"
+}
+
+<> 2018-12-21T110047.200.json
+
+###
+
+POST http://localhost:6789/logout
+Authorization: Token 5dc99d90-9962-48d4-be5b-ca63ecd20391
+{:
+  "username": "batya"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "batya"
+}
+
+<> 2018-12-21T105939.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "hui"
+}
+
+<> 2018-12-21T105742.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+  "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+  "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+  "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+  "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+
+###
+
+GET http://localhost:6789/messages
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+     "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+     "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+     "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+     "username": "hui"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+{:
+     "username": "hui"
+}:
+
+###
+
+POST http://localhost:6789/login
+
+Content-Type: application/json
+{
+     "username": "hui"
+}
+
+###
+
